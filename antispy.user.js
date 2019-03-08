@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         Antispy
 // @namespace    tampermonkey.com
 // @version      0.1
 // @description  try to take over the world!
