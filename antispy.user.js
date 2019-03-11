@@ -17,4 +17,7 @@
     document.body.innerHTML = '<object type="application/x-shockwave-flash" data="https://www.mcleodgaming.com/flash/?f=games/SSF2Beta_v1_1_0_1b.swf" width="100%" height="100%"> <param name="movie" value="https://www.mcleodgaming.com/flash/?f=games/SSF2Beta_v1_1_0_1b.swf"> <param name="quality" value="high"> </object>'
     document.body.style = "margin: 0; height: 100%;"
     document.documentElement.style = 'margin: 0; height: 100%;'
+    window.addEventListener("beforeunload", function (e) {
+        return "No";
+    });
 })();
